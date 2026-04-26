@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Background Circle -->
+    <circle cx="50" cy="50" r="48" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.2"/>
+    
+    <!-- Pizza Slice (Board) -->
+    <path d="M50 20 L80 75 Q50 85 20 75 Z" fill="#FFD93D" stroke="#E67E22" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Crust -->
+    <path d="M20 75 Q50 85 80 75 L82 78 Q50 90 18 78 Z" fill="#D35400"/>
+    
+    <!-- Pepperonis (Representing task nodes/points) -->
+    <circle cx="45" cy="45" r="5" fill="#FF6B6B"/>
+    <circle cx="55" cy="65" r="4" fill="#FF6B6B"/>
+    <circle cx="35" cy="60" r="4" fill="#FF6B6B"/>
+    
+    <!-- Board Lines (Subtle) -->
+    <line x1="35" y1="40" x2="65" y2="40" stroke="#E67E22" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="30" y1="55" x2="70" y2="55" stroke="#E67E22" stroke-width="1" stroke-dasharray="2,2"/>
+</svg>
